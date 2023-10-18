@@ -1,0 +1,57 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+//	int sum=0, y=0;
+//	for(int x=1 ; x<=10; x++ ){
+//		cout<<"Enter a natural number :";
+//		cin>>y;
+//		sum=sum+x;
+//		}
+//	cout<<"The Sum of First 10 natural numbers :"<<sum;
+//	return 0;
+	
+	
+	
+	
+	
+	//TAsk2:
+//	int n1;
+//	cout<<"Enter a number :";
+//	cin>>n1;
+//	for(int n2; n2<=10; n2++){
+//		cout<<n1<<"x"<<n2<<"="<<n1*n2<<endl;
+//	}
+//
+//	return 0;
+//	
+	
+	//Task3
+//	int a , b=1;
+//	cout<<"Enter a number :";
+//	cin>>a;
+//	if(a>=0) {
+//		for(int c=0; c<a; c++){
+//			b=b*(a-c);
+//		}		
+//		cout<<"Factorail of number :"<<b;
+//	}
+//	else{
+//		cout<<"Invalid Input .";
+//	}	
+//	return 0;
+	
+	//Task4
+	int n1, n2, n3;
+	cout<<"Enter two numbers :";
+	cin>>n1>>n2;
+	for(int x=0; x<8; x++){
+	n3=n1+n2;
+	n1=n2;
+	n2=n3;	
+	cout<<n3<<" ,";
+	}
+	
+	
+	
